@@ -1,0 +1,46 @@
+/* ===== MOBIL-FIRST ===== */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+/* Ved skærme ≥ 600px
+   - Gør teksten lidt større
+   - Tilføj lidt mere margen til <body>
+   - Giv <h1> og <h2> mere visuel vægt
+*/
+@media (min-width: 600px) {
+  /* ... */
+}
+
+/* Ved skærme ≥ 900px
+   - Gør <h1> meget tydelig (fx 3rem)
+   - Øg linjeafstand i <p>
+   - Tilføj max-width for bedre læsbarhed
+*/
+@media (min-width: 900px) {
+  /* ... */
+}
